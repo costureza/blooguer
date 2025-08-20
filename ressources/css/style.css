@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+@import url(./header.css);
+@import url(./media.css);
+@import url(./banner.css);
+@import url(./post.css);
+@import url(./contact.css);
+
+:root{
+    --blue: #1E3E59;
+    --black: #011F26;
+    --light-color: #3A758C;
+    --border: .1rem solid rgba(0,0,0,.2);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --white:#fff;
+    --light-white:#eee;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Delius", cursive;
+    outline: none;
+    border: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background: var(--black);
+    color: var(--white);
+    border-radius: .5rem;
+    padding: .9rem 3rem;
+    cursor: pointer;
+    font-size: 1.7rem ;
+}
+.btn:hover{
+    background: var(--blue);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .credit{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+
+}
+.footer .credit a{
+    color: var(--light-color);
+}
+.footer .credit img{
+    width: 18rem;
+}
+.footer .follow{
+    padding: 1rem 0;
+}
+.footer .follow a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    background: var(--black);
+    color: var(--white);
+    font-size: 1.7rem;
+    margin: 0 .1rem;
+    
+}
+.footer .follow a:hover{
+    background: var(--blue);
+}

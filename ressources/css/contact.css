@@ -1,0 +1,41 @@
+.contact{
+    background: url(../img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact form{
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+    padding: 2rem;
+}
+.contact form h3{
+    color: var(--black);
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+
+}
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width: 100%;
+    background: var(--light-white);
+    padding: 1rem;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 1.7rem;
+}
+.contact form .inputBox input{
+    width: 40%;
+}
